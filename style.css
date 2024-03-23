@@ -1,0 +1,48 @@
+body {
+            background-color:rgb(193, 171, 171);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: rgb(70, 54, 54);
+    }
+
+    #word {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .correct-guess {
+
+        animation: rainbow 1s infinite;
+    }
+
+    @keyframes rainbow {
+        0% { color: red; }
+        16% { color: orange; }
+        33% { color: yellow; }
+        50% { color: green; }
+        66% { color: blue; }
+        83% { color: indigo; }
+        100% { color: violet; }
+    }
+
+    input[type="text"] {
+        padding: 5px;
+        border:2px;
+        margin-top: 10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #5db360;
+        border: none;
+        color: white;
+        border-radius: 2pc;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #9f2e26;
+    }
+
